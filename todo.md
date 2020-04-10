@@ -1,16 +1,16 @@
 # Plan Of Action
 
---- create wireframing 
+--- create wireframing --Done
                    --it's simply means that how your project look like after finished
 
---- setup base html structure  
+--- setup base html structure  --Done
 
---- import google maps into window 
+--- import google maps into window --Done
 
---- Add the text store locator 
+--- Add the text store locator --Done
 
---- input text 
+--- input text --Done
 
---- Add store container
+--- Add store container --Done 
 
---- Add individual store container 
+--- Add individual store container --Done
