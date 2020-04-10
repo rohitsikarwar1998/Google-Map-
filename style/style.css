@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -77,11 +77,22 @@ body {
     margin-top: 20px;
     border-bottom: 1.3px solid #33333330;
     padding-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
 }
 
-.store_list_container #name {
+.address_info_container {
+    flex-grow: 1;
+}
+
+.store_number_container {
+    display: flex;
+    align-items: center;
+}
+
+.address span {
+    display: block;
     margin-bottom: 2px;
-    color: #514C4C;
 }
 
 .store_list_container #address {
@@ -93,4 +104,15 @@ body {
     margin-bottom: 2px;
     color: #B5ADAD;
     font-size: 13px;
+}
+
+.store_number {
+    background-color: #454E53;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
